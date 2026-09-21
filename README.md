@@ -29,10 +29,10 @@ The pipeline was implemented in Python and uses MobileSAM, CLIP, OpenCV, PyTorch
 
 ## Files
 
-- `pipeline_CLIP.py` — segmentation, zero-shot classification, COCO annotation generation and CVAT integration
-- `augmentation.py` — image augmentation script
-- `requirements.txt` — Python dependencies
-- `.gitignore` — excludes local datasets, model checkpoints and generated files
+- `pipeline_CLIP.py` -> segmentation, zero-shot classification, COCO annotation generation and CVAT integration
+- `augmentation.py` -> image augmentation script
+- `requirements.txt` -> Python dependencies
+- `.gitignore` -> excludes local datasets, model checkpoints and generated files
 
 ## Results
 
