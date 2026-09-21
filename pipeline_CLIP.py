@@ -19,6 +19,11 @@ CVAT_URL = os.getenv("CVAT_URL", "http://localhost:8080")
 USERNAME = os.getenv("CVAT_USERNAME")
 PASSWORD = os.getenv("CVAT_PASSWORD")
 
+if not USERNAME or not PASSWORD:
+    raise RuntimeError(
+        "Set CVAT_USERNAME and CVAT_PASSWORD environment variables."
+    )
+
 MIN_AREA = 1000
 
 #carregar modelo SAM
